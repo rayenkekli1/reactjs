@@ -1,0 +1,296 @@
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+    }
+::-webkit-scrollbar {
+    width: 0px; 
+::-webkit-scrollbar-thumb {}
+    background: #FF0000;
+    }
+.main { 
+background-color: rgb(0, 0, 0);
+}
+
+.navbar {
+    align-items: center;
+    margin-bottom: 20px;
+    position: relative;
+}
+.navbar img {
+    height: 70px;
+    width: 100px;
+    margin-top: -50px;
+    margin-left: 20px;
+}
+.navbar ul {
+    width: auto;
+    float: right;
+    /* margin-top: 8px; */
+    margin-bottom: 50px;
+}
+.navbar li {
+    display: inline-block;
+    padding: 20px 60px;
+}
+.navbar a{
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 253, 253);
+    font-size: 12px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* border-bottom-style: solid;
+    border-width: 1px;
+    font-size: 15px; */
+}
+.intorduction h3{
+    font-size: 10px;
+    width: 800px;
+    text-align: left;
+    margin-left: 10px;
+    color: white;
+}
+.intorduction h1{
+    font-size: 25px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+.intorduction {
+    background: rgb(255,255,255);
+background: linear-gradient(0deg, rgba(255,255,255,1) 13%, rgba(0,0,0,1) 100%);
+    height: 400px;
+    overflow-x: hidden;
+}
+.car1 {
+    background-color: rgb(255, 255, 255);
+    height: 800px;
+}
+.car1 h1{
+    color: rgb(0, 0, 0);
+    font-size: 16px;
+    text-align: right;
+    margin-right: 90px;
+    margin-top: -30px;
+}
+.car1 img {
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 90px;
+    border-radius: 5px;
+}
+.car1 span{
+    font-size: 8px;
+}
+.car1 h5{
+    font-size: 11px;
+    margin-bottom: -1px;
+}
+.car1 h3 {
+    font-size: 12px;
+
+}
+.cardetails1 {
+    margin-top: 300px;
+    margin-left: 580px;
+    margin-bottom: 100px;
+
+}
+.driverofthecar1 {
+    
+}
+.driverofthecar1 img{
+    height: 200px;
+    width: 150px;
+    margin-right: 325px;
+    margin-top: -0px;
+}
+.driverofthecar1 h1{
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3px;
+    margin-left: 100px;
+    margin-top: -680px;
+}
+.driverofthecar1 h5 {
+    font-size: 11px;
+    margin-bottom: -1px;
+}
+.driverofthecar1 span{
+    font-size: 8px;
+}
+
+.stat1 {
+    margin-top: 230px;
+    margin-left: 100px;
+
+}
+.line{
+    background: rgb(255,0,0);
+background: linear-gradient(0deg, rgba(255,0,0,1) 0%, rgba(255,255,255,1) 100%);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    margin-top: -150px;
+    /* margin-left: 400px; */
+
+}
+.car2 {
+    background-color: rgb(255, 0, 0);
+    height: 600px;
+    margin-top: 30px;
+}
+.car2 h1{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: right;
+    margin-right: 90px;
+    margin-top: -30px;
+}
+.car2 img {
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 90px;
+    border-radius: 5px;
+}
+.car2 span{
+    font-size: 8px;
+    color: white;
+}
+.car2 h5{
+    font-size: 11px;
+    margin-bottom: -1px;
+    color: white;
+}
+.car2 h3 {
+    font-size: 12px;
+    color: white;
+}
+.cardetails2 {
+    margin-top: 300px;
+    margin-left: 580px;
+    margin-bottom: 100px;
+
+}
+.driverofthecar2 {
+    margin-top: 150px;
+}
+.driverofthecar2 img{
+    height: 200px;
+    width: 150px;
+    margin-right: 325px;
+    margin-top: -0px;
+}
+.driverofthecar2 h1{
+    font-size: 10px;
+    background-color: rgb(255, 0, 0);
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3px;
+    margin-left: 100px;
+    margin-top: -680px;
+}
+.driverofthecar2 h5 {
+    font-size: 11px;
+    margin-bottom: -1px;
+}
+.driverofthecar2 span{
+    font-size: 8px;
+}
+
+.stat2 {
+    margin-top: 230px;
+    margin-left: 100px;
+
+}
+
+
+
+
+
+.line1{
+    background: rgb(11,8,37);
+background: linear-gradient(0deg, rgba(11,8,37,1) 0%, rgba(255,0,0,1) 100%);
+    height: 150px;
+    width: 100%;
+    position: absolute;
+}
+.car3 {
+    background-color:#0b0825;
+    height: 600px;
+    margin-top: 180px;
+}
+.car3 h1{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    text-align: right;
+    margin-right: 90px;
+    margin-top: -30px;
+}
+.car3 img {
+    height: 200px;
+    width: 400px;
+    margin-top: 50px;
+    float: right;
+    margin-right: 90px;
+    border-radius: 5px;
+}
+.car3 span{
+    font-size: 8px;
+    color: white;
+}
+.car3 h5{
+    font-size: 11px;
+    margin-bottom: -1px;
+    color: white;
+}
+.car3 h3 {
+    font-size: 12px;
+    color: white;
+}
+.cardetails3 {
+    margin-top: 300px;
+    margin-left: 580px;
+    margin-bottom: 100px;
+
+}
+.driverofthecar3 {
+    margin-top: 200px;
+}
+.driverofthecar3 img{
+    height: 200px;
+    width: 150px;
+    margin-right: 325px;
+    margin-top: -0px;
+}
+.driverofthecar3 h1{
+    font-size: 10px;
+    background-color: #0b0825;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    padding-top: 3px;
+    margin-left: 100px;
+    margin-top: -680px;
+}
+.driverofthecar3 h5 {
+    font-size: 11px;
+    margin-bottom: -1px;
+}
+.driverofthecar3 span{
+    font-size: 8px;
+}
+
+.stat3 {
+    margin-top: 230px;
+    margin-left: 100px;
+
+}
+
